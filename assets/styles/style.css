@@ -99,3 +99,14 @@ aside {
 * {
     box-sizing: border-box;
 }
+
+
+/* media query */
+
+@media screen and (max-width: 1000px) {
+    #content,
+    aside {
+        width: 100%;
+        padding: 0;
+    }
+}
